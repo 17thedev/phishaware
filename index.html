@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PhishAware</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Secure Login</h1>
+    <p class="subtitle">Sign in to continue</p>
+
+    <form id="loginForm">
+      <input type="email" placeholder="Email address" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Sign in</button>
+    </form>
+
+    <div id="warning" class="hidden">
+      <h2>⚠️ Phishing Awareness</h2>
+      <p>
+        This page is an educational demo.  
+        If this were a real phishing site, your login details could be stolen.
+      </p>
+      <ul>
+        <li>Always check the website URL</li>
+        <li>Be careful with urgent login requests</li>
+        <li>Use two-factor authentication</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
